@@ -1,93 +1,101 @@
-# SRMAP University ChatBot
+# 🎓 SRMAP University ChatBot
 
 A web scraping and semantic search system that collects data, processes it using deep learning embeddings, and provides an interactive interface for exploring the results.
 
-## Description
+---
+
+## 📝 Description
 
 This project is a comprehensive web scraping and data processing system that follows a sequential workflow:
-1. Web scraping using `deep_scraper.py` to collect data
-2. Processing and embedding the scraped data using `modified_embedder.py`
-3. Generating FAISS index and metadata files
-4. Visualizing and interacting with the processed data through a Gradio interface in the Jupyter notebook
+1. 🕸️ Web scraping using `deep_scraper.py` to collect data
+2. 🧠 Processing and embedding the scraped data using `modified_embedder.py`
+3. 🗂️ Generating FAISS index and metadata files
+4. 💬 Visualizing and interacting with the processed data through a Gradio interface in the Jupyter notebook
 
-## Core Technologies
+---
 
-- **Embedding Model:** all-MiniLM-L6-v2
-- **LLM:** TinyLlama-1.1B
-- **Vector Database:** FAISS
+## 🛠️ Core Technologies
 
-## Features
+- 🧩 **Embedding Model:** all-MiniLM-L6-v2
+- 🤖 **LLM:** TinyLlama-1.1B
+- 🗃️ **Vector Database:** FAISS
 
-- Advanced web scraping with BeautifulSoup4 and aiohttp
-- Deep learning-based text embedding using sentence-transformers
-- Efficient similarity search with FAISS
-- Gradio-based interactive interface
-- Support for PDF processing with PyMuPDF
-- Asynchronous processing for improved performance
+---
 
-## Requirements
+## ✨ Features
 
-- Python 3.8+
-- PyTorch
-- Transformers
-- Sentence-transformers
-- FAISS
-- Gradio
-- BeautifulSoup4
-- aiohttp
-- PyMuPDF
-- Other dependencies listed in requirements.txt
+- 🌐 Advanced web scraping with BeautifulSoup4 and aiohttp
+- 🧠 Deep learning-based text embedding using sentence-transformers
+- ⚡ Efficient similarity search with FAISS
+- 🖥️ Gradio-based interactive interface
+- 📄 Support for PDF processing with PyMuPDF
+- 🚀 Asynchronous processing for improved performance
 
-## Installation
+---
+
+## 📦 Requirements
+
+- 🐍 Python 3.8+
+- 🔥 PyTorch
+- 🤗 Transformers
+- 🧠 Sentence-transformers
+- 🗃️ FAISS
+- 🖥️ Gradio
+- 🌸 BeautifulSoup4
+- 🌐 aiohttp
+- 📄 PyMuPDF
+- 📋 Other dependencies listed in requirements.txt
+
+---
+
+## ⚙️ Installation
 
 1. Clone the repository:
-
-```bash
-git clone [your-repository-url]
-cd [repository-name]
-```
+   ```bash
+   git clone [your-repository-url]
+   cd [repository-name]
+   ```
 
 2. Create a virtual environment (recommended):
-
-```bash
-python -m venv venv
-venv\Scripts\activate
-```
+   ```bash
+   python -m venv venv
+   venv\Scripts\activate
+   ```
 
 3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-```bash
-pip install -r requirements.txt
-```
+---
 
-## Project Structure
+## 🗂️ Project Structure
 
 - `deep_scraper.py`: Initial web scraping module
 - `modified_embedder.py`: Data processing and embedding module
 - `University_Chatbot.ipynb`: Jupyter notebook containing the Gradio interface
 - `requirements.txt`: Project dependencies
 
-## Workflow
+---
 
-1. Run the web scraper to collect data:
+## 🔄 Workflow
 
-```bash
-python deep_scraper.py
-```
+1. 🕸️ Run the web scraper to collect data:
+   ```bash
+   python deep_scraper.py
+   ```
+2. 🧠 Process the scraped data and generate embeddings:
+   ```bash
+   python modified_embedder.py
+   ```
+3. 💬 Use the Provided Jupyter Notebook:
+   ```bash
+   run all the cells in the Jupyter Notebook
+   ```
 
-2. Process the scraped data and generate embeddings:
+---
 
-```bash
-python modified_embedder.py
-```
-
-3. Use the Provided Jupyter Notebook:
-
-```bash
-run all the cells in the Jupyter Notebook
-```
-
-## Data Files
+## 📁 Data Files
 
 The project uses the following data files:
 
@@ -97,12 +105,15 @@ The project uses the following data files:
 
 Note: These files are not included in the repository and should be generated during the first run.
 
+---
 
-## Contributing
+## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## Contact
+---
 
-Srikar Mandava 
+## 📬 Contact
+
+Srikar Mandava  
 https://github.com/srikarr3
