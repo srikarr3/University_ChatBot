@@ -1,4 +1,4 @@
-# SRMap Deep Learning Project
+# SRMAP University ChatBot
 
 A web scraping and semantic search system that collects data, processes it using deep learning embeddings, and provides an interactive interface for exploring the results.
 
@@ -105,3 +105,4 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## Contact
 
 Srikar Mandava 
+https://github.com/srikarr3
